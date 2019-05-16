@@ -1,0 +1,41 @@
+.bg-nav-red{
+  background-color: #C00039;
+  padding: 0;
+}
+
+.bg-nav-red li.nav-item a{
+  padding: 7px 33px !important;
+}
+
+.bg-nav-red li.nav-item:hover{
+  background-color:#d00743;
+}
+
+.bg-nav-red ul.navbar-nav a{
+  color: #fff !important;
+}
+
+.dropdown .dropdown-menu{
+  background-color: #C00039;
+  color: #fff;
+}
+
+.dropdown-menu a:hover{
+  background-color:#d00743;
+  color: #fff;
+}
+
+@media (min-width: 978px) {
+  .bg-nav-red .container{
+    padding: 5px 0;
+  }
+
+  .bg-nav-red .container .navbar-light{
+    padding: 0 !important;
+  }
+
+  .bg-nav-red .container nav.navbar{
+    padding: 0;
+  }
+}
+
